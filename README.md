@@ -100,7 +100,6 @@ student-management-portal/
 
 - Student data changes (add/edit/delete) are stored in Redux and reset on page reload.
 - Initial student list is fetched from JSONPlaceholder mock API.
-- Purple color theme applied globally.
 - Simple alert messages for success notifications, no external toast libraries.
 - Form validations prevent invalid inputs.
 
