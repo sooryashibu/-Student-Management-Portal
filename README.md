@@ -4,7 +4,17 @@
 A React-based Student Management Portal that allows users to **view**, **add**, **edit**, and **delete** student details. This project demonstrates the use of **React Hooks**, **Redux Toolkit** for state management, **React Router v6** with loader functions, **API integration**, and **form validation**.
 
 ---
+## Live Demo
 
+The website is hosted here:  
+[https://student-management-portal-jade.vercel.app/](https://student-management-portal-jade.vercel.app/)
+
+## Source Code
+
+The complete source code is available at:  
+[https://github.com/sooryashibu/-Student-Management-Portal.git](https://github.com/sooryashibu/-Student-Management-Portal.git)
+
+---
 ## Technologies Used
 
 - React 18 (Functional Components & Hooks)
