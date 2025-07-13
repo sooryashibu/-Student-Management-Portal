@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom purple theme colors */
+:root {
+  --purple-primary: #7c3aed; /* violet-700 */
+  --purple-light: #c4b5fd; /* violet-300 */
+}
+
+body {
+  @apply bg-gray-50 text-gray-900 font-sans;
+}
+
+/* Buttons */
+.btn-primary {
+  @apply bg-purple-700 text-white px-4 py-2 rounded hover:bg-purple-800 transition;
+}
+
+.btn-secondary {
+  @apply bg-purple-300 text-purple-900 px-4 py-2 rounded hover:bg-purple-400 transition;
+}
