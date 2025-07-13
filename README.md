@@ -28,37 +28,6 @@ The complete source code is available at:
 
 ---
 
-## Project Structure
-
-```
-student-management-portal/
-│
-├── public/
-│   └── index.html
-│
-├── src/
-│   ├── components/
-│   │   └── Loader.jsx              # Loading spinner component
-│   │
-│   ├── pages/
-│   │   ├── StudentList.jsx         # Student list page with fetch, delete, and navigation
-│   │   ├── StudentDetail.jsx       # Detailed student info page using route params and loaders
-│   │   └── AddEditStudent.jsx      # Form to add or edit student details with validation
-│   │
-│   ├── store/
-│   │   └── studentSlice.js         # Redux slice with async fetch, add, edit, delete actions
-│   │
-│   ├── styles/
-│   │   └── index.css               # Global purple-themed CSS styles
-│   │
-│   ├── App.jsx                    # Main app component with React Router setup
-│   └── main.jsx                   # React entry point, renders <App />
-│
-├── package.json
-├── README.md
-└── vite.config.js (or similar build config)
-```
-
 ---
 
 ## Features & Functionality
